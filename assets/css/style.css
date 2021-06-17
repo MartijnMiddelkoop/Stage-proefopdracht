@@ -4,6 +4,17 @@
   background-size: cover;
 }
 
+body {
+  margin: 0;
+  font-family: DM Sans, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.66667;
+  color: #6a6f83;
+  text-align: left;
+  background-color: #fff
+}
+
 #foto1 {
   background-image: url("../img/image@2x.png");
   height: 630px;
@@ -15,4 +26,80 @@
   height: 583px;
   background-size: cover;
 }
-/*# sourceMappingURL=style.css.map */
+
+
+#html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+section {
+  width: 1600px;
+  height: 785px;
+}
+
+footer li {
+  text-align: right;
+}
+
+#svg {
+  overflow: hidden;
+  height: 50px;
+  width: 100px;
+}
+
+#img {
+  border-style: none
+}
+
+#img, svg {
+  vertical-align: middle
+}
+
+#container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+} 
+
+nav {
+height: 100px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+}
+footer ul{
+  display: flex;
+  justify-content: space-around;
+}
+footer ul li{
+  list-style-type: none;
+}
+footer ul li a{
+  text-decoration: none;
+}
+
+
+.col-4 {
+
+}
+
+.col-8 {
+
+}
+
+.col-12 {
+
+}
+
